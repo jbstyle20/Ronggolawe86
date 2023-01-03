@@ -4,7 +4,7 @@ apt update && apt upgrade -y --fix-missing && update-grub && sleep 2 && reboot
 ```
 # Install AutoScript 2023
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://github.com/errorcode86/Ronggolawe86/raw/main/setupku.sh && chmod +x setupku.sh && screen -S setupku ./setupku.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://github.com/errorcode86/Ronggolawe86/raw/main/setupku.sh && chmod +x setupku.sh && ./setupku.sh
 ```
 # Setup Multipath Bisa pilih Salah Satu
 ```
