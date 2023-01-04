@@ -1,6 +1,6 @@
 [Unit]
 Description=WebSocket
-Documentation=https://github.com/ronggolawe86
+Documentation=https://github.com/errorcode86/Ronggolawe86/websocket
 After=syslog.target network-online.target
 
 [Service]
